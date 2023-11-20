@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop-down menu</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="bg-page">
+
+    <!--Header -->
+    <header class="header">
+      <div class="container">
+        <!--Menu-->
+        <h1 class="title">Drop-down menu</h1>
+        <!--Menu 1 level-->
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link menu__link--no-dropdown" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">products</a>
+              <!--Menu 2 level-->
+              <ul class="menu__list menu__list--2level">
+                <li class="menu__item menu__item--2level">
+                  <a class="menu__link menu__link--2level" href="#">Product 1</a>
+                  <!--Menu 3 level-->
+                  <ul class="menu__list menu__list--3level">
+                    <li class="menu__item menu__item--3level">
+                      <a class="menu__link menu__link--3level menu__link--no-dropdown" href="#">item 1.1</a>
+                    </li>
+                    <li class="menu__item menu__item--3level">
+                      <a class="menu__link menu__link--3level menu__link--no-dropdown" href="#">item 1.2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item menu__item--2level">
+                  <a class="menu__link menu__link--2level menu__link--no-dropdown" href="#">product 2</a>
+                </li>
+                <li class="menu__item menu__item--2level">
+                  <a class="menu__link menu__link--2level" href="#">product 3</a>
+                  <!--Menu 3 level-->
+                  <ul class="menu__list menu__list--3level">
+                    <li class="menu__item menu__item--3level">
+                      <a class="menu__link menu__link--3level menu__link--no-dropdown" href="#">item 3.1</a>
+                    </li>
+                    <li class="menu__item menu__item--3level">
+                      <a class="menu__link menu__link--3level menu__link--no-dropdown" href="#">item 3.2</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--no-dropdown" href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--no-dropdown" href="#">contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Main block -->
+    <main class="main">
+      <div class="container">
+        <h2 class="subtitle">elements position</h2>
+        <div class="box">
+          <div class="block-small">
+            <div class="blok block--1"></div>
+            <div class="blok block--2"></div>
+            <div class="blok block--3"></div>
+            <div class="blok block--4"></div>
+          </div>
+          <div class="block-large">
+            <div class="block-red"></div>
+            <div class="block-blue block-blue--1"></div>
+            <div class="block-blue block-blue--2"></div>
+            <div class="block-blue block-blue--3"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-item">&copy; Alina Scorpion</div>
+      </div>
+
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
